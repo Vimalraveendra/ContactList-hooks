@@ -1,0 +1,9 @@
+.searchField-container {
+  width: 100%;
+  position: relative;
+}
+.searchField-container input {
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  /* border: none; */
+}
