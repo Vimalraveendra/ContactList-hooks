@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import SearchField from '../components/searchField/searchField.component';
 import './App.css';
+import ContactArray from '../components/contactArray/contactArray.component'
 
 const App=() =>{
   console.log("parent rendered")
@@ -24,6 +25,7 @@ const App=() =>{
         <h1>Contacts</h1>
       </header>
       <SearchField/>
+      <ContactArray dataList={dataList}/>
     </div>
   );
 }
