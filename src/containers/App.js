@@ -18,7 +18,7 @@ const App=() =>{
     fetchedContactList()
   }, [])
 
-  console.log('data',dataList)
+  console.log('datafrom',dataList)
   return (
     <div className="App">
       <header className="App-header">
